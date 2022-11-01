@@ -1,0 +1,53 @@
+body {
+    background-image: url(WhatsApp\ Image\ 2022-10-27\ at\ 2.58.43\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1500px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(143, 214, 30);
+    color: white;
+    margin: auto;
+    border-style: none;
+    border-radius: 10px;
+    width: 600px;
+    font-size: 45px;
+    font-family: monospace;
+}
+
+button {
+    background-color: rgb(90, 60, 60);
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+    display: inline;
+    border-radius: 15px;
+    border: 2px solid rgb(145, 132, 132);
+}
+
+button a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+div {
+    background-image: linear-gradient(to left, rgb(212, 182, 157), rgb(133, 117, 96));
+    border-radius: 15px;
+    border: 3px solid rgb(63, 59, 55);
+    margin-top: 20px;
+    width: 800px;
+    height: max-content;
+    padding: 20px;
+}
+
+div h2 {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 3px;
+    font-family: sans-serif;
+}

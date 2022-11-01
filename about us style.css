@@ -1,0 +1,120 @@
+body {
+    background-image: url(WhatsApp\ Image\ 2022-10-24\ at\ 4.32.47\ PM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+    position: relative;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 400px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+li a,
+.drop {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .drop {
+    background-color: rgb(32, 183, 209);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a5483;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: medium;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(102, 57, 39);
+    font-family: sans-serif;
+    margin-top: 120px;
+}
+
+textarea {
+    background-color: rgb(250, 249, 249);
+    resize: none;
+    border-radius: 5px;
+    display: block;
+}
+
+label {
+    font-size: x-large;
+    color: rgb(102, 57, 39);
+    display: block;
+}
+
+input {
+    width: 50px;
+    background-color: rgb(220, 253, 249);
+    border: 1px solid rgb(58, 66, 66);
+    cursor: pointer;
+}
+
+.src {
+    float: right;
+}
+
+input:hover {
+    font-size: small;
+}
+
+div {
+    margin-top: 83px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+footer p {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #3e6da3;
+    padding: 2px;
+}
